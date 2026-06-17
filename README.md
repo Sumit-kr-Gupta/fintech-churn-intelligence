@@ -10,7 +10,7 @@ End-to-end customer retention analytics system using Excel, SQL, and Python to i
 ## The Business Problem
 A fintech platform is losing **20.37% of its customers annually** — roughly 1 in 5 customers leaves every year. In financial services, a churned customer is not just a lost monthly fee. It represents the destruction of a relationship that cost money to acquire, carries an average balance of €91,108, and represents long-term lifetime value that never gets realised.
 
-At a 20.37% churn rate across 10,000 customers, 2,037 customers left in the analysis period.Based on their average balance, that represents **€80.94 million in assets at risk of leaving the platform** — capital that supports customer engagement, cross-sell opportunities, and long-term revenue generation., and anchors product cross-sell. That is not a retention problem. That is a revenue problem.
+At a 20.37% churn rate across 10,000 customers, 2,037 customers left in the analysis period.Based on their average balance, that represents **€80.94 million in assets at risk of leaving the platform** — capital that supports customer engagement, cross-sell opportunities, and long-term revenue generation., and anchors product cross-sell. The findings suggest churn has significant financial implications for the business.
 
 This project answers three questions a CFO or Head of Growth would actually ask:
 1. Which customers are most likely to leave next?
@@ -108,7 +108,7 @@ The analytical core of the Excel workbook. Built using `COUNTIFS`, `SUMIFS`, and
 - Activity status: Inactive 26.85% · Active 14.27%
 - Product count: 1 product 27.71% · 2 products 7.58% (lowest) · 3 products 82.71% · 4 products 100%
 - Balance comparison: Churned customers hold €91,108 on average vs €72,745 for retained — a counter-intuitive finding that signals these are not low-value customers leaving out of neglect
-- Revenue At Risk: €80,941,411**
+- Estimated Assets at Risk: €80,941,411**
 
 The balance finding is strategically important: it means the highest-value customers are churning. A standard "protect the bottom" retention strategy would fail here.
 
@@ -361,12 +361,13 @@ fintech-churn-intelligence/
 ---
 
 ## Future Enhancements
-- XGBoost model with SHAP interpretation** for explainable feature importance at customer level
-- Real-time churn scoring pipeline using Python + scheduled SQL jobs
-- A/B testing framework** to measure the lift from retention campaign interventions
-- LTV-weighted risk scoring** — not all €80.94M is equal; weight risk scores by projected lifetime value
-- Automated alerts** when a customer's activity score drops below a configurable threshold
-- Tableau dashboard deployment** on Tableau Public with full interactive filtering
+- Experiment with gradient boosting models for improved predictive performance
+- Add model explainability techniques to better interpret churn drivers
+- Build a real-time churn scoring pipeline using scheduled SQL and Python workflows
+- Develop an A/B testing framework to measure retention campaign effectiveness
+- Incorporate customer lifetime value (LTV) into risk scoring
+- Automated alerts when a customer's activity score drops below a configurable threshold
+- Deploy an interactive Tableau dashboard with dynamic filterin
 ---
 
 ## License
