@@ -374,4 +374,8 @@ fintech-churn-intelligence/
 MIT License — free to use, adapt, and reference with attribution.
 ---
 
-*Project by Sumit Kumar Gupta · [https://www.linkedin.com/in/sumitgupta-analyst/) · [https://github.com/Sumit-kr-Gupta)
+Project by Sumit Kumar Gupta
+
+[LinkedIn](https://www.linkedin.com/in/sumitgupta-analyst/)
+
+[GitHub](https://github.com/Sumit-kr-Gupta)
