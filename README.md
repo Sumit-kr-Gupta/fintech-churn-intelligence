@@ -3,7 +3,34 @@
 **End-to-end customer churn analysis, segmentation, and predictive risk scoring for a fintech retail banking business — built in SQL, Excel, and Python.**
 
 ---
+# Table of Contents
 
+- [1. Executive Summary](#1-executive-summary)
+- [2. Business Problem](#2-business-problem)
+- [3. Business Context](#3-business-context)
+- [4. Objectives](#4-objectives)
+- [5. Business Questions](#5-business-questions)
+- [6. Dataset Overview](#6-dataset-overview)
+- [7. Data Architecture](#7-data-architecture)
+- [8. Technology Stack](#8-technology-stack)
+- [9. SQL Analysis](#9-sql-analysis)
+- [10. Python Analysis](#10-python-analysis)
+- [11. Excel Dashboard](#11-excel-dashboard)
+- [12. Tableau Dashboard](#12-tableau-dashboard)
+- [13. KPI Framework](#13-kpi-framework)
+- [14. Analytical Methodology](#14-analytical-methodology)
+- [15. Business Insights](#15-business-insights)
+- [16. Executive Recommendations](#16-executive-recommendations)
+- [17. Revenue Impact](#17-revenue-impact)
+- [18. Business Value](#18-business-value)
+- [19. Repository Structure](#19-repository--folder-structure)
+- [20. Key Skills Demonstrated](#20-key-skills-demonstrated)
+- [21. Challenges & Assumptions](#21-challenges--assumptions)
+- [22. Future Enhancements](#22-future-enhancements)
+- [23. Screenshots](#23-screenshots)
+- [24. How to Run This Project](#24-how-to-run-this-project)
+- [25. Conclusion](#25-conclusion)
+- [26. Relevant Roles](#26-relevant-roles)
 ## Executive Summary
 
 10,000 customers, 20.37% churn rate, and a business that doesn't yet know which customers are about to leave or why. This project answers both questions using a three-layer analytics stack:
