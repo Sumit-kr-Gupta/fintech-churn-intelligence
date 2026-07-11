@@ -30,7 +30,7 @@
 - [23. Screenshots](#23-screenshots)
 - [24. How to Run This Project](#24-how-to-run-this-project)
 - [25. Conclusion](#25-conclusion)
-- [26. Relevant Roles](#26-relevant-roles)
+
 ## Executive Summary
 
 10,000 customers, 20.37% churn rate, and a business that doesn't yet know which customers are about to leave or why. This project answers both questions using a three-layer analytics stack:
@@ -328,12 +328,4 @@ This project moves from a single churn-rate number to a validated, individually-
 
 ---
 
-## Relevant Roles
 
-**Data / Reporting / Business Data Analytics:** the SQL and Excel layers are a direct demonstration of the core analyst workflow — descriptive analysis, segmentation, dashboarding, and translating a database into a one-page executive view.
-
-**Business Analysis / BI:** the cohort-validation approach (single-variable → cross-tab → lift-validated) mirrors how a BI analyst is expected to defend a finding before it reaches a stakeholder deck.
-
-**Strategy & Operations / Founder's Office:** the executive recommendations are cost-aware and prioritized by expected return (individual outreach for a 130-customer cohort vs. automated re-engagement for the inactive base), not a flat list of ideas.
-
-**Consulting:** the project explicitly separates a validated finding (the ML model, back-tested with decile lift) from an illustrative one (the SQL/Excel engagement layer) — the kind of rigor distinction a case interview probes for directly.
